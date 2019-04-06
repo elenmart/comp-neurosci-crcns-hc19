@@ -27,16 +27,15 @@ To process the hdf5 files, first run the script in src/kloosterman_function.py:
  
 -This script will create the read_dataset function which reads the hdf5 files in python.
 
-To put the desired data into a dictonary, use the function in the src/io.py folder:
+To put the desired data into a dictonary, use the function in the src/io.py folder. This function allows you to select a partition of the data to analyze:
 
--This function allows you to select a partition of the data to analyze:
-     -"all" puts all nine files into a dictionary order by day and level of run (i.e. pre, sleep, post)
-     -"day1" puts the three pre, sleep, post files of August 23rd in a dictionary
-     -"day2" puts the three pre, sleep, post files of August 24th in a dictionary
-     -"day3" puts the three pre, sleep, post files of August 25th in a dictionary
-     -"prerun" puts the three preruns files from August 23rd-25th in a dictionary
-     -"sleep" puts the three sleep files from August 23rd-25th in a dictionary
-     -"postrun" puts the three postrun files from August 23rd-25th in a dictionary
+-"all" puts all nine files into a dictionary order by day and level of run (i.e. pre, sleep, post)
+-"day1" puts the three pre, sleep, post files of August 23rd in a dictionary
+-"day2" puts the three pre, sleep, post files of August 24th in a dictionary
+-"day3" puts the three pre, sleep, post files of August 25th in a dictionary
+-"prerun" puts the three preruns files from August 23rd-25th in a dictionary
+-"sleep" puts the three sleep files from August 23rd-25th in a dictionary
+-"postrun" puts the three postrun files from August 23rd-25th in a dictionary
 
 -The function also defaults to using the read_dataset function on all nine of the hdf5 files. Note to change the file path in the function.
 
