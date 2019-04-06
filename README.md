@@ -29,7 +29,7 @@ To process the hdf5 files, first run the script in src/kloosterman_function.py:
 
 To put the desired data into a dictonary, use the function in the src/io.py folder. This function allows you to select a partition of the data to analyze:
 
-- "all" puts all nine files into a dictionary order by day and level of run (i.e. pre, sleep, post)
+- "all" puts all nine files into a dictionary ordered by day and level of run (i.e. pre, sleep, post)
 - "day1" puts the three pre, sleep, post files of August 23rd in a dictionary
 - "day2" puts the three pre, sleep, post files of August 24th in a dictionary
 - "day3" puts the three pre, sleep, post files of August 25th in a dictionary
